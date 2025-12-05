@@ -12,7 +12,7 @@ function App() {
     <>
     <div className="min-h-screen bg-gray-100 flex flex-wrap gap-6 justify-center items-center">
       <h2 className="w-full text-3xl font-bold text-center mt-5">
-      E-commerces Product Showcase
+      🛍️ E-commerces Product Showcase
       </h2>
 
       <ProductCard featured={true}>

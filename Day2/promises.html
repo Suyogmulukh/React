@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Promises</h2>
+    <p>A Promises is an object that represent the eventual completion or failure of an asynchronous opreation </p>
+    <ul>
+        <li>Pending</li>
+        <li>Fulfilled</li>
+        <li>Rejected</li>
+    </ul>
+
+    <script>
+        let myPromises = new Promise((resolve,reject) =>{
+            reject("Successfully Rejected ");
+            // resolve("Successfully Resolved");
+        })
+        myPromises.then ((data)=>{
+            console.log(data);
+        })
+        .catch((err)=>{
+            console.log("something went wrong" , err);
+        })
+    </script>
+</body>
+</html>
